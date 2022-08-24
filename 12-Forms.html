@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- this contains meta-information -->
+        <title>Traineeship</title>
+    </head>
+    <body>
+        <h1>First website</h1>
+        <h2>Made by myself</h2>
+        <h3>During the traineeship</h3>
+        <h4>With text that get's smaller</h4>
+        <h5>even smaller</h5
+        <h6>the smallest</h6>
+
+        <p>
+            While I enjoyed my time in a laboratory I am thrilled to gain more personal experience in other work fields and gather more knoweledge
+         </p>
+        
+        <p> Course objective:
+            <q>Introduction in html and javascript</q>
+        </p>
+
+        <p> Personal objective
+            <blockquote>
+                Gaining experience in coding with html and javascript
+            </blockquote>
+        </p>
+        
+        <a href="https://www.google.com/" target="_blank">Link to Google</a><br>
+        <a href="https://linkedin.com" target="_blank">Link to Linkedin</a>
+        
+
+
+        <img src="https://dev-master.ninja/assets/img/oldskool-computer.png">
+
+        <div>
+        <img src="https://dev-master.ninja/assets/img/oldskool-computer.png" width="200px">
+        <img src="https://dev-master.ninja/assets/img/oldskool-computer.png" 
+        height="200px" width="200px">
+        </div>
+
+        <img src="https://dev-master.ninja/assets/img/no-image.png"
+        alt="This image doesn't exist!">
+        
+        <picture>
+            <source media="(min-width: 1000px)" 
+                    srcset="https://dev-master.ninja/assets/img/01.png">
+            <source media="(min-width: 650px)"
+                    srcset="https://dev-master.ninja/assets/img/02.png">
+            <img src="https://dev-master.ninja/assets/img/03.png">
+        </picture>
+
+        <article>
+            <header>
+                <h1>A trainee
+                <h2>A small introduction to Jelle
+            </header>
+
+            <section>
+                <h3>The start
+                <p>The first day of the traineeship was intense however it still intrested me.</p>
+            </section>
+
+            <section>
+                <h3>The second day 
+                <p>During the second day the first html coding happened and with this also the first site I created.</p>
+            </section>
+            <footer>
+                <a href="http://educom.nu">educom website!</a>
+                <p>Biography: after graduating from applied science this year I worked for Zuyderland for a few weeks. During my study I was slowly gaining intrest in the arts of informatics and coding, which resulted into me starting this traineeship to gain experience.</p>
+            </footer>
+        </article>
+<!-- normal table-->
+        <table width="100%">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jelle</td>
+                    <td>Kruijssen</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>Dirk-Jan</td>
+                    <td>Janssen</td>
+                    <td>78</td>
+                </tr>
+            </tbody>
+        </table>
+<!-- rowspan-->
+        <table>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+                <th>Savings for holiday</th>
+            </tr>
+            <tr>
+                <td>Januarry</td>
+                <td>&euro; 100</td>
+                <td rowspan="2">&euro; 50</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>&euro; 80</td>
+            </tr>
+        </table>
+<!-- colspan-->
+        <table>
+            <tr>
+                <th>name</th>
+                <th>Email</th>
+                <th colspan="2">Phone</th>
+            </tr>
+            <tr>
+                <td>Jelle Kruijssen</td>
+                <td>jellekruijssen@outlook.com</td>
+                <td></td>
+                <td>Android</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+        <form method="post" action="http://apid.dev-master.ninja/html/form">
+        <input type="hidden"
+               name="id"
+               value="this is a hidden ID"
+
+            Code: <input type="text" name="code"><br>
+            Do you like HTML
+            <select name="YouLikeHtml">
+                                <option disabled selected>-- Choose one --</option>
+                                <option value="Y">Yes</option>
+                                <option value="N">No</option>
+            </select>
+            <br>
+            <input type="submit" name="thebutton" value="Save!">
+        </form>             
+
+    </body>
+</html>
